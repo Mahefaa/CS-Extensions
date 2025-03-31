@@ -1,0 +1,8 @@
+{
+  "name": "Mahefa CS-Extensions",
+  "description": "fork of multilingual extensions i found and modified to include french only",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/Mahefaa/CS-Extensions/builds/plugins.json"
+  ]
+}

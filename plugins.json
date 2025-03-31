@@ -1,0 +1,21 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Mahefaa/CS-Extensions",
+        "fileSize": 14865,
+        "status": 1,
+        "authors": [
+            "Gian-Fr",
+            "Adippe",
+            "Mahefa Ny Anjara"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 2,
+        "internalName": "IptvorgProvider",
+        "url": "https://raw.githubusercontent.com/Mahefaa/CS-Extensions/builds/IptvorgProvider.cs3",
+        "name": "IptvorgProvider"
+    }
+]
