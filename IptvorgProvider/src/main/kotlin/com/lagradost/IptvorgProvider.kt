@@ -4,6 +4,8 @@ import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.AppUtils.parseJson
 import com.lagradost.cloudstream3.utils.AppUtils.toJson
 import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.newExtractorLink
+import com.lagradost.cloudstream3.utils.ExtractorLinkType
 import com.lagradost.cloudstream3.utils.Qualities
 import java.io.InputStream
 
@@ -90,13 +92,11 @@ class IptvorgProvider : MainAPI() {
     ): Boolean {
         val loadData = parseJson<LoadData>(data)
         callback.invoke(
-            ExtractorLink(
+            newExtractorLink(
                 this.name,
                 loadData.title,
                 url = loadData.url,
-                "",
-                Qualities.Unknown.value,
-                isM3u8 = true
+                ExtractorLinkType.M3U8
             )
         )
         return true
