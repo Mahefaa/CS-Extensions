@@ -9,7 +9,7 @@ import java.io.InputStream
 
 class IptvorgProvider : MainAPI() {
     override var lang = "fr"
-    override var mainUrl = "https://raw.githubusercontent.com/Mahefaa/IpTv-France/refs/heads/master/fra.m3u8"
+    override var mainUrl = "https://raw.githubusercontent.com/Mahefaa/CS-Extensions/refs/heads/master/fra.m3u8"
     override var name = "Iptv-org"
     override val hasMainPage = true
     override val hasChromecastSupport = true
