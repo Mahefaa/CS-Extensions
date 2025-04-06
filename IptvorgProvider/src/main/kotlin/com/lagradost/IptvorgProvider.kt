@@ -93,7 +93,7 @@ class IptvorgProvider : MainAPI() {
             ExtractorLink(
                 this.name,
                 loadData.title,
-                loadData.url,
+                url = loadData.url,
                 "",
                 Qualities.Unknown.value,
                 isM3u8 = true
