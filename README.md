@@ -13,7 +13,7 @@ International plugins for [CloudStream](https://cloudstream.on.fleek.co) develop
     - extensions
     - add repository
 - in repository URL, input either
-    - short-code: `wraIsYgf`
+    - short-code: `cs-ext-fr`
     - direct-link: `https://raw.githubusercontent.com/Mahefaa/CS-Extensions/refs/heads/builds/repo.json`
 ---
 ## Extensions
