@@ -41,7 +41,7 @@ class IptvorgProvider : MainAPI() {
             HomePageList(
                 title,
                 show,
-                isHorizontalImages = true
+                isHorizontalImages = false
             )
         })
     }
