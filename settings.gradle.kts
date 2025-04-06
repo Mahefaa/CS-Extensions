@@ -5,6 +5,5 @@ rootProject.name = "CloudstreamPlugins"
 
 // Plugins are included like this
 include(
-    "IptvorgProvider",
-    "Watch32"
+    "IptvorgProvider"
 )
